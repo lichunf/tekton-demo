@@ -17,7 +17,7 @@ spec:
             value: http://gitlab.nip.io:8088/addozhang/tekton-test.git
   params:
     - name: imageUrl
-      value: addozhang/tekton-test
+      value: lichunf/tekton-test
     - name: imageTag
       value: latest
   serviceAccountName: tekton-test
