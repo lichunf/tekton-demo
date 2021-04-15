@@ -28,7 +28,7 @@ spec:
         serviceAccountName: tekton-test
         params: 
           - name: imageUrl
-            value: addozhang/$(params.projectname)
+            value: lichunf/$(params.projectname)
           - name: imageTag
             value: $(params.imagetag)
         pipelineRef:
